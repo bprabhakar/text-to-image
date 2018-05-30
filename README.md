@@ -6,7 +6,7 @@ There are three steps involved.
    ```
    docker build -t "attngan" -f dockerfile.cpu .
    ``` 
-2. Run the container (replace the key's with the appropriate blob storage location as well as App Insights Key): 
+2. Run the container: 
     ```
     docker run -it --name attngan -p 8888:8888 attngan bash
     ```
